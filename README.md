@@ -1,16 +1,113 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+```markdown
+# 🎬 OTT Platform
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A **frontend-only web application** for browsing and discovering movies and TV shows.  
+Built with **React, Vite, Tailwind CSS**, and integrated with **Appwrite** for backend services.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search and filter movies and TV shows
+- 🎨 Dynamic movie cards with details
+- ⏳ Loading spinner for smooth UX
+- 📱 Fully responsive design for desktop and mobile
+- 🖼️ Static assets managed in the `public` folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Appwrite (optional integration)
+- **Deployment**: Vercel
+- **Package Management**: npm
+
+---
+
+## 📂 Project Structure
+
+```
+
+OTT-platform/
+├── public/            # Static files (images, favicon)
+├── src/               # React components and App files
+│   ├── components/
+│   ├── appwrite.js
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+````
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/FaizanTahir450/OTT-platform.git
+cd OTT-platform
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start development server
+
+```bash
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser to view the app.
+
+### 4️⃣ Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Deployment
+
+The app is deployed on **Vercel**.
+
+* Output folder for deployment: `dist`
+* Make sure to include the `vercel.json` file for SPA routing if using `react-router-dom`.
+
+---
+
+## 📌 Notes
+
+* Keep all static assets in the `public` folder.
+* Do not push `node_modules` or `dist` to GitHub.
+* Ensure `vite.config.js` has default settings (no `base: "./"` needed for Vercel).
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Faizan Tahir**
+
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+```
+
+---
+
+
+```
